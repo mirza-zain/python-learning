@@ -1,0 +1,7 @@
+print("Hello, Welcome to the class")
+print("Please Mention your name?")
+my_name = input('>')
+print("Welcome, " + my_name)
+print(len(my_name))
+my_age = input('>')
+print("Your Age, " + str(int(my_age) + 1) + ' in a year')
