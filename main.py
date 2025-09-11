@@ -12,8 +12,17 @@
 # print(newVal)
 
 #booleans
-print(42 == 30)
-print('hello' != 'Hello')
-print(100 <= 20)
-print(100 >= 20)
-print((55 > 50) and (30 <= 40))
+# print(42 == 30)
+# print('hello' != 'Hello')
+# print(100 <= 20)
+# print(100 >= 20)
+# print((55 > 50) and (30 <= 40))
+
+#if elseif else
+name = "Mirzaa"
+if name == "Zain":
+    print("Hello, " + name)
+elif name == "Mirza":
+    print("Hello, " + name)
+else:
+    print("Better luck next time")
