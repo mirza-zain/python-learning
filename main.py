@@ -1,7 +1,19 @@
-print("Hello, Welcome to the class")
-print("Please Mention your name?")
-my_name = input('>')
-print("Welcome, " + my_name)
-print(len(my_name))
-my_age = input('>')
-print("Your Age, " + str(int(my_age) + 1) + ' in a year')
+# print("Hello, Welcome to the class")
+# print("Please Mention your name?")
+# my_name = input('>')
+# print("Welcome, " + my_name)
+# print(len(my_name))
+# my_age = input('>')
+# print("Your Age, " + str(int(my_age) + 1) + ' in a year')
+
+#round
+# sum = 2 + 5.5
+# newVal = round(sum)
+# print(newVal)
+
+#booleans
+print(42 == 30)
+print('hello' != 'Hello')
+print(100 <= 20)
+print(100 >= 20)
+print((55 > 50) and (30 <= 40))
