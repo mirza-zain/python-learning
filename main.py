@@ -47,5 +47,23 @@
 # print(total)
     
 # range(intial(included), final(not included), increase/decrease(additional condition))
-for i in range(10, -1, -2):
-    print("Values, " + str(i))
+# for i in range(10, -1, -2):
+#     print("Values, " + str(i))
+
+#Modules using imp
+# ort keyword
+import random
+
+secretNum = random.randint(1, 20)
+print("Guess the number from 1 to 20")
+
+for guessTaken in range(1, 7):
+    print("Take a guess")
+    guess = int(input('>'))
+    
+    if guess < secretNum:
+        print("Your guess in too low")
+    elif guess > secretNum:
+        print("Guess is too high")
+    else:
+        print("Made right guess")
